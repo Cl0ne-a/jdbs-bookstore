@@ -1,4 +1,4 @@
 package com.example.jdbsbookstore.dao;
 
-public class AuthorDao {
+public interface AuthorDao {
 }
