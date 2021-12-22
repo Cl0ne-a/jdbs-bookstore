@@ -7,3 +7,9 @@ spring:
       path: /h2-console
       settings:
         web-allow-others: true
+
+  sql:
+    init:
+      mode: always
+      data-locations: data.sql
+      schema-locations: schema.sql
