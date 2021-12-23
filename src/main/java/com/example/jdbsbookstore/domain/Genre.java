@@ -7,9 +7,7 @@ import java.io.Serializable;
 
 @Builder
 @Data
-public class Book implements Serializable {
+public class Genre implements Serializable {
     private long id;
-    private String name;
-    private Genre genre;
-    private Author author;
+    private String genre;
 }
